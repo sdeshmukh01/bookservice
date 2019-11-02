@@ -4,7 +4,7 @@ environment {
      registryCredential = ‘docker-hub-credentials’
  }
 
-    withMaven(maven:'maven') {
+    withMaven(maven:'mvn') {
 
         stage('Checkout') {
             git url: 'https://github.com/sdeshmukh01/bookservice.git', credentialsId: 'github-credentials', branch: 'master'
