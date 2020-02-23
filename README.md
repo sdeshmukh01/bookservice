@@ -1,2 +1,2 @@
 # bookservice
-simple microservice for CICD demo purpose 
+Basic microservice for CICD demo purpose 
